@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 7%;
+  font-family: 'Cedarville Cursive';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: 7%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header_nav {
+  text-decoration: none;
+  color: black;
+}
+
+.header_nav:hover {
+  text-decoration: underline;
+  color: #2D635E;
+}
+
+main {
+  display: flex;
+}
+
+.main_main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: #E3EBE7;
+}
+
+.main1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1%;
+}
+
+.section_main1 {
+  font-family: 'Cedarville Cursive';
+  font-size: 28px;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 63px;
+  font-weight: 350;
+}
+
+.button_order {
+  padding: 1% 2%;
+  text-decoration: none;
+  background-color: #2D635E;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.button_order:hover {
+  text-decoration: underline #d6d6d6;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 38px;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.main3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.main_text {
+  padding: 5%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  background-color: #92a69d;
+}
+
+.aside_bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside_bar_name {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+}
+
+.button_order_aside {
+  padding: 2% 4%;
+  text-decoration: none;
+  background-color: #2D635E;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+}
+
+.button_order_aside:hover {
+  text-decoration: underline #d6d6d6;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1% 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.footer_nav img:hover {
+  background-color: #2D635E50;
+  border-radius: 50%;
+}
